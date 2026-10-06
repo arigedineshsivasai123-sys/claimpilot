@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+
+# Runtime uploads & logs
+uploads/*
+!uploads/.gitkeep
+*.log
