@@ -1,3 +1,14 @@
+## Demo Credentials
+
+Use the following account to test the deployed ClaimPilot application:
+
+Username: demo
+Email: demo@claimpilot.ai
+Password: 12345678
+
+Live Demo:
+https://claimpilot-amber.vercel.app/
+
 
 **live demo = https://claimpilot-amber.vercel.app **
 
