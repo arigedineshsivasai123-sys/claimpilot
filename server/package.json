@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
+    "postinstall": "tsc",
+    "prestart": "tsc",
     "start": "node dist/server.js",
     "test": "tsx test/api.test.ts"
   },
