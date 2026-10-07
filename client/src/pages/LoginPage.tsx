@@ -32,8 +32,8 @@ export const LoginPage: React.FC = () => {
   };
 
   const handleFillDemoCredentials = () => {
-    setEmail('reviewer@claimpilot.ai');
-    setPassword('reviewer123');
+    setEmail('demo@claimpilot.ai');
+    setPassword('12345678');
   };
 
   return (
@@ -87,7 +87,7 @@ export const LoginPage: React.FC = () => {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="reviewer@claimpilot.ai"
+                  placeholder="demo@claimpilot.ai"
                   className="w-full bg-slate-850 border border-slate-700 rounded-xl pl-9 pr-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500"
                 />
               </div>
